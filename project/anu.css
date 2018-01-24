@@ -1,0 +1,52 @@
+.top_bar{
+	background:#ff4000;
+	padding:5px;
+}
+.icons{
+	padding:5px;
+}
+.contact{
+	color:white;
+	padding:5px;
+	font-size:14px;
+}
+.menu{
+	color:black;
+	margin-top:5px;
+
+}
+.menu .navbar-default{
+	background:none;
+	border:none;
+}
+.menu .navbar-nav .active a,.menu .navbar-nav .active a:hover{
+	background:#ff4000;
+	color:white;
+}
+.menu .navbar-nav li a:hover{
+	background:#ff4000;
+	color:white;
+}
+@media(max-width:1200px){
+	.menu .pull-right{
+		float:none!important;
+	}
+}
+.footer
+{
+	background-color:black;
+	color:white;
+	margin-top:5px;
+}
+.footer ul{
+	list-style:none;
+	padding:0px;
+	
+}
+.language{
+	margin-top:40px;
+}
+.footer ul li a{
+	color:white;
+	font-size:15px;
+}
